@@ -48,6 +48,7 @@ unlinked_spec.ds
 
 # Android related
 **/android/**/gradle-wrapper.jar
+**/android/**/google-services.json
 .gradle/
 **/android/captures/
 **/android/gradlew
@@ -56,6 +57,10 @@ unlinked_spec.ds
 **/android/**/GeneratedPluginRegistrant.java
 **/android/key.properties
 *.jks
+
+# Environment variables / secrets
+.env
+.env.*
 
 # iOS/XCode related
 **/ios/**/*.mode1v3
