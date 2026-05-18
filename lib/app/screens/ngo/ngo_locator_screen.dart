@@ -510,10 +510,10 @@ class _NgoLocatorScreenState extends State<NgoLocatorScreen> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () => Get.back(),
-                  child: const Text('Cancel'),
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.symmetric(vertical: 12),
                   ),
+                  child: const Text('Cancel'),
                 ),
               ),
             ],
@@ -714,10 +714,10 @@ class _NgoLocatorScreenState extends State<NgoLocatorScreen> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () => Get.back(),
-                  child: const Text('Close'),
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.symmetric(vertical: 12),
                   ),
+                  child: const Text('Close'),
                 ),
               ),
             ],

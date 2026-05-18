@@ -197,7 +197,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       value: themeController.isDarkMode,
                       onChanged: (value) => themeController.toggleTheme(),
-                      activeColor: AppColors.cyan,
+                      activeThumbColor: AppColors.cyan,
                       activeTrackColor: AppColors.cyan.withOpacity(0.3),
                       inactiveThumbColor: Colors.white,
                       inactiveTrackColor: Colors.white.withOpacity(0.3),

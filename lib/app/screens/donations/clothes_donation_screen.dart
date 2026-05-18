@@ -17,7 +17,7 @@ class ClothesDonationScreen extends StatefulWidget {
 class _ClothesDonationScreenState extends State<ClothesDonationScreen> {
   String _selectedCategory = "Men's";
   final _descriptionController = TextEditingController();
-  int _quantity = 1;
+  final int _quantity = 1;
   String _condition = 'Good';
   final List<XFile> _selectedImages = [];
   final ImagePicker _picker = ImagePicker();

@@ -21,7 +21,7 @@ class _SearchScreenState extends State<SearchScreen>
   bool _isSearching = false;
 
   // Advanced search features
-  Set<String> _selectedFilters = {};
+  final Set<String> _selectedFilters = {};
   String _sortBy = 'relevance'; // relevance, recent, popular
   bool _showAdvancedSearch = false;
   List<String> _searchHistory = [];
@@ -717,7 +717,7 @@ class _SearchScreenState extends State<SearchScreen>
               ),
             ),
           );
-        }).toList(),
+        }),
         if (_searchHistory.isNotEmpty)
           GestureDetector(
             onTap: _clearSearchHistory,

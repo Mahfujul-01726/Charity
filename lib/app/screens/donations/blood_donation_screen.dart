@@ -285,7 +285,7 @@ class _BloodDonationScreenState extends State<BloodDonationScreen>
                 margin: const EdgeInsets.all(20),
               );
             },
-            activeColor: Colors.white,
+            activeThumbColor: Colors.white,
             activeTrackColor: Colors.white.withOpacity(0.3),
             inactiveThumbColor: Colors.white,
             inactiveTrackColor: Colors.black.withOpacity(0.1),
@@ -621,7 +621,7 @@ class _BloodDonationScreenState extends State<BloodDonationScreen>
       ),
       child: DropdownButtonHideUnderline(
         child: DropdownButtonFormField<String>(
-          value: value,
+          initialValue: value,
           dropdownColor: AppColors.darkBackground,
           icon: const Icon(Icons.keyboard_arrow_down, color: Colors.white),
           style: const TextStyle(color: Colors.white),

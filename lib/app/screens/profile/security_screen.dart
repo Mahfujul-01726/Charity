@@ -249,7 +249,7 @@ class _SecurityScreenState extends State<SecurityScreen> {
           Switch(
             value: value,
             onChanged: onChanged,
-            activeColor: AppColors.cyan,
+            activeThumbColor: AppColors.cyan,
             activeTrackColor: AppColors.cyan.withValues(alpha: 0.3),
             inactiveThumbColor: Colors.white,
             inactiveTrackColor: Colors.white.withValues(alpha: 0.3),

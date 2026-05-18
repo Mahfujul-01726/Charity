@@ -4,7 +4,6 @@ import '../../core/theme/app_colors.dart';
 import '../../widgets/three_d_background.dart';
 import '../../widgets/custom_button.dart';
 import '../../widgets/custom_text_field.dart';
-import '../home/home_screen.dart';
 import '../../controllers/auth_controller.dart';
 
 class SignupScreen extends StatefulWidget {
