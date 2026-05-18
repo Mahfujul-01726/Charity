@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:image_picker/image_picker.dart';
 import '../../core/theme/app_colors.dart';
 import '../../controllers/theme_controller.dart';
 import '../../controllers/user_controller.dart';

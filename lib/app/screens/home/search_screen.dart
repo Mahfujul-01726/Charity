@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'dart:async';
-import 'dart:ui';
 import '../../core/theme/app_colors.dart';
 import '../../data/mock_data.dart';
 import '../../widgets/three_d_background.dart';
